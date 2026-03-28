@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "n8n_contabo": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "supergateway",
+        "--streamableHttp",
+        "http://62.171.136.239:5678/mcp-server/http",
+        "--header",
+        "authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIwNTk4NzFiMy1lOWFmLTRhNjQtYmExMy03MzZlNmI2NWQwZmEiLCJpc3MiOiJuOG4iLCJhdWQiOiJwdWJsaWMtYXBpIiwiaWF0IjoxNzY5NjU1MDAxfQ.f-Uyu7X8OljJknO-Q6-2iC_sF-fCcDamlfFgYSijaew"
+      ]
+    }
+  }
+}
