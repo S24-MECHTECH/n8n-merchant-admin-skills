@@ -1,1 +1,8 @@
 .claude/settings.local.json
+
+# Sensitive files - DO NOT COMMIT
+mcp_config.json
+mcp_contabo.json
+memo_projekt_status.md
+SKILL_old.md
+setup_database_schema.sql
