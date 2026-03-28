@@ -1,8 +1,44 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Build outputs
+dist/
+.next/
+out/
+
+# Environment files (contain API keys)
+.env
+.env.local
+.env.*.local
+*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Claude Code (local settings)
 .claude/settings.local.json
 
-# Sensitive files - DO NOT COMMIT
+# n8n sensitive files
 mcp_config.json
 mcp_contabo.json
 memo_projekt_status.md
 SKILL_old.md
 setup_database_schema.sql
+
+# Temporary files
+*.tmp
+*.bak
+workflow_*.json
